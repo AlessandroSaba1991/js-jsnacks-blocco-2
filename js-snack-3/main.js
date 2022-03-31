@@ -8,30 +8,30 @@ const cognomi = ['Saba', 'Rovella', 'De Palma', 'Ruggiero', 'Giovannini'];
 const invitati = []
 
 /* for (let i = 0; invitati.length < nomi.length; i++) {
-    const nome = nomi[i];
-    const cognome = cognomi[i];
+    const nome = nomi[Math.floor(Math.random() * nomi.length)];
+    const cognome = cognomi[Math.floor(Math.random() * cognomi.length)];
     invitati.push(`${nome} ${cognome}`)
 }
 
 console.log(invitati); */
 
-/* let c = 0;
+let c = 0;
 
 while (invitati.length != nomi.length) {
-    const nome = nomi[c];
-    const cognome = cognomi[c];
+    const nome = nomi[Math.floor(Math.random() * nomi.length)];
+    const cognome = cognomi[Math.floor(Math.random() * cognomi.length)];
     invitati.push(`${nome} ${cognome}`)
     c++
 }
-console.log(invitati); */
+console.log(invitati);
 
-//lista random che più random non si può
+//lista random che più random non si può (funziona solo le le liste sono lunghe uguali)
 
-const numeri_random_nomi = [];
+/* const numeri_random_nomi = [];
 const numeri_random_cognomi = []
 
 
-while (invitati.length != nomi.length) {
+while (invitati.length !== nomi.length) {
 
     let nome, cognome;
 
@@ -66,3 +66,4 @@ while (invitati.length != nomi.length) {
     invitati.push(`${nome} ${cognome}`)
 }
 console.log(invitati);
+console.log(); */
