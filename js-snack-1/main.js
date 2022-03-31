@@ -12,8 +12,7 @@ for (let i = 0; i < 5; i++) {
     const num_utente = parseInt(prompt('Insersci un numero'));
     somma += num_utente
 }
-console.log('FOR ' +
-    somma);
+console.log('FOR ' + somma);
 
 let c = 0
 let somma_2 = 0
