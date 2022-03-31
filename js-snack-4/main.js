@@ -14,3 +14,15 @@ for (let i = 0; i < numeri.length; i++) {
     }
 }
 console.log(somma);
+
+let c = 0;
+let somma_2 = 0;
+
+while (c < numeri.length) {
+    const numero = numeri[c];
+    if (c % 2 != 0) {
+        somma_2 += numero;
+    }
+    c++
+}
+console.log(somma_2);

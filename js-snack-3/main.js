@@ -14,3 +14,13 @@ for (let i = 0; invitati.length < nomi.length; i++) {
 }
 
 console.log(invitati);
+
+let c = 0;
+
+while (invitati.length != nomi.length) {
+    const nome = nomi[c];
+    const cognome = cognomi[c];
+    invitati.push(`${nome} ${cognome}`)
+    c++
+}
+console.log(invitati);
